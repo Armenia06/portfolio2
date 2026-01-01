@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashot Manucharyan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="cursor"></div>
+
+    <nav>
+        <input type="checkbox" id="verif">
+        <label for="verif" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+
+        <div class="logo">ASHOT<span>.</span></div>
+        <div class="nav-links">
+            <a href="#accueil">Début</a>
+            <a href="#propos">À Propos</a>
+            <a href="#projets">Travaux</a>
+            <a href="#contact">Hello</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Ashot</h1>
+                <h2 class="reveal-text outline">Manucharyan</h2>
+                <p class="hero-sub">Je transforme vos idées complexes en interfaces minimalistes et intuitives.</p>
+            </div>
+        </section>
+
+        <section id="propos" class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-label">
+                        <span class="index">01.</span>
+                        <h2 class="section-title">À PROPOS</h2>
+                    </div>
+                    <div class="about-text">
+                        <p class="lead">Basé en France, je fusionne le <strong>design</strong> et le <strong>code</strong> pour créer des produits numériques hors du commun.</p>
+                        <p>Passionné par les interactions fluides et l'esthétique épurée, j'aide les marques et les entreprises à se démarquer dans le monde digital. Mon approche est centrée sur l'utilisateur, sans jamais compromettre l'innovation technique.</p>
+                        <div class="skills">
+                            <span>UI/UX DESIGN</span>
+                            <span>FULLSTACK DEV</span>
+                            <span>MOTION DESIGN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="index">02.</span>
+                    <h2 class="section-title">MES PROJETS</h2>
+                </div>
+
+                <div class="project-list">
+                    <article class="project-item">
+                        <div class="project-visual">
+                            <img src="images/1.jpg" alt="Projet 1">
+                            <div class="project-overlay"><span>VOIR LE PROJET</span></div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">UI/UX • DEVELOPPEMENT</div>
+                            <h3>CYBER-PUNK DASHBOARD</h3>
+                            <p>Une interface futuriste pour la gestion de données.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-item reverse">
+                        <div class="project-visual">
+                            <img src="images/3.jpg" alt="Projet 2">
+                            <div class="project-overlay"><span>VOIR LE PROJET</span></div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">MOBILE • REACT NATIVE</div>
+                            <h3>ZENITH APP</h3>
+                            <p>Application de méditation sensorielle unique.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-text">
+                        <span class="index">03.</span>
+                        <h2>Un projet ? En plein recrutement ? Envie de dire bonjour ? N'hésitez plus, entrons en contact !</h2>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <label>NOM</label>
+                            <input type="text" placeholder="Votre nom">
+                        </div>
+                        <div class="input-group">
+                            <label>EMAIL</label>
+                            <input type="email" placeholder="votre@email.com">
+                        </div>
+                        <div class="input-group">
+                            <label>MESSAGE</label>
+                            <textarea rows="4" placeholder="Votre projet en quelques mots..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">ENVOYER <span>→</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">ASHOT<span>.</span></div>
+            <div class="footer-socials">
+                <a href="#">LINKEDIN</a>
+                <a href="#">GITHUB</a>
+                <a href="#">INSTAGRAM</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 — TOUS DROITS RÉSERVÉS</p>
+            <p id="local-time">PARIS, FR 00:00</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
